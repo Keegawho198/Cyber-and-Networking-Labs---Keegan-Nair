@@ -122,7 +122,7 @@ Using CLI reinforces command hierarchy, configuration modes, and professional ne
 
 
 
-Key Concepts Reinforced
+## Key Concepts Reinforced
 
 - Role of routers vs switches
 - DHCP DORA process (Discover, Offer, Request, Acknowledge)
@@ -131,18 +131,15 @@ Key Concepts Reinforced
 - Network troubleshooting methodology
 - CLI operational structure
 
-What I Learned
+## What I Learned
 
 This project strengthened my understanding of how small networks are structured and how essential services like DHCP operate in real environments.
 
 Key takeaways:
 
-Networking fundamentals are critical before moving into advanced topics.
-
-CLI-based configuration builds deeper technical confidence.
-
-Proper IP planning prevents misconfiguration and conflict.
-
-Troubleshooting requires layer-by-layer thinking.
+- Networking fundamentals are critical before moving into advanced topics.
+- CLI-based configuration builds deeper technical confidence.
+- Proper IP planning prevents misconfiguration and conflict.
+- Troubleshooting requires layer-by-layer thinking.
 
 This lab serves as a foundational step in my networking and cybersecurity learning journey. Feel free to use these files to help your learning journey.
