@@ -35,7 +35,7 @@ Router G0/0 → Switch G0/1
 
 PCs → Switch Fa0/1–Fa0/4
 
-![Topology screenshot](lab 1 topology.png)
+![Topology screenshot](lab%201%20topology.png)
 
 IP Addressing Scheme
 Component	Address
