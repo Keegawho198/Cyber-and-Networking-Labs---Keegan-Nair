@@ -7,35 +7,24 @@ The objective was to configure a router as a DHCP server using the Cisco IOS CLI
 
 This project reinforces foundational networking concepts including:
 
-Layer 2 switching
-
-Layer 3 routing
-
-IP addressing
-
-DHCP configuration
-
-CLI-based device management
-
-Basic troubleshooting
-
-Network Topology
+- Layer 2 switching
+- Layer 3 routing
+- IP addressing
+- DHCP configuration
+- CLI-based device management
+- Basic troubleshooting
+- Network Topology
 
 Devices Used:
-
-1 × Cisco 2911 Router
-
-1 × Cisco 2960 Switch
-
-4 × PCs
+- 1 × Cisco 2911 Router
+- 1 × Cisco 2960 Switch
+- 4 × PCs
 
 Physical Connections:
-
 Router G0/0 → Switch G0/1
-
 PCs → Switch Fa0/1–Fa0/4
 
-(Screenshot of topology goes here)
+![Topology screenshot](lab%201%20topology.png)
 
 IP Addressing Scheme
 Component	Address
@@ -49,7 +38,7 @@ The router interface was configured as the default gateway for all clients.
 
 Reserved addresses (192.168.1.1–192.168.1.9) were excluded from the DHCP pool to prevent IP conflicts with infrastructure devices.
 
-Router Configuration (CLI)
+## Router Configuration (CLI)
 Interface Configuration
 enable
 configure terminal
@@ -130,46 +119,27 @@ CLI configuration demonstrates deeper understanding of device behavior and struc
 
 Using CLI reinforces command hierarchy, configuration modes, and professional networking practices.
 
-Troubleshooting Scenario
 
-To simulate failure:
 
-The router interface was administratively shut down.
 
-Clients failed to obtain DHCP addresses.
+## Key Concepts Reinforced
 
-Devices defaulted to APIPA (169.254.x.x).
+- Role of routers vs switches
+- DHCP DORA process (Discover, Offer, Request, Acknowledge)
+- Importance of default gateway configuration
+- IP address management
+- Network troubleshooting methodology
+- CLI operational structure
 
-This demonstrated the dependency between Layer 3 gateway availability and DHCP functionality.
-
-Restoring the interface resolved the issue.
-
-Key Concepts Reinforced
-
-Role of routers vs switches
-
-DHCP DORA process (Discover, Offer, Request, Acknowledge)
-
-Importance of default gateway configuration
-
-IP address management
-
-Network troubleshooting methodology
-
-CLI operational structure
-
-What I Learned
+## What I Learned
 
 This project strengthened my understanding of how small networks are structured and how essential services like DHCP operate in real environments.
 
 Key takeaways:
 
-Networking fundamentals are critical before moving into advanced topics.
+- Networking fundamentals are critical before moving into advanced topics.
+- CLI-based configuration builds deeper technical confidence.
+- Proper IP planning prevents misconfiguration and conflict.
+- Troubleshooting requires layer-by-layer thinking.
 
-CLI-based configuration builds deeper technical confidence.
-
-Proper IP planning prevents misconfiguration and conflict.
-
-Troubleshooting requires layer-by-layer thinking.
-
-This lab serves as a foundational step in my networking and cybersecurity learning journey.
+This lab serves as a foundational step in my networking and cybersecurity learning journey. Feel free to use these files to help your learning journey.
